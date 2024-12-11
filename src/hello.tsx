@@ -1,6 +1,11 @@
-import React from 'react'
-import { Alert } from 'antd';
+import { DatePicker } from 'antd';
+import React from 'react';
 
 export function Hello() {
-  return <Alert message={'Hello'} />
+  return (
+    <DatePicker
+      superPrevIcon={null}
+      superNextIcon={null}
+    />
+  );
 };
